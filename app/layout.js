@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "The Padel Analyst • Online Padel Coaching Made Easy",
     description:
-      "Send us your match clips and get expert feedback tailored to your game.",
+      "Send us your match footage and get expert feedback tailored to your game.",
     images: [
       {
         url: "/img/og.png",
