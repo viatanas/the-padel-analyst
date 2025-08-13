@@ -4,7 +4,7 @@ const Coaches = () => {
   return (
     <section
       id="coaches"
-      className="w-full h-auto py-24 flex justify-center items-center bg-primary"
+      className="w-full h-auto py-16 md:py-24 flex justify-center px-7 md:px-0 items-center bg-primary"
     >
       <div className="w-full max-w-5xl flex flex-col">
         <div className="w-full px-5 flex flex-col">
@@ -16,7 +16,7 @@ const Coaches = () => {
           </h2>
         </div>
 
-        <div className="w-full flex space-x-3 mt-[48px]">
+        <div className="w-full flex flex-col md:flex-row md:space-x-3 space-y-16 md:space-y-0 mt-[48px]">
           {/* Coach 1 */}
           <div className="w-full h-auto flex flex-col">
             <img src="/img/coach-one.png" className="grayscale w-full h-auto" />

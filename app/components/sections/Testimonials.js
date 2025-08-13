@@ -49,12 +49,12 @@ export default function Testimonials() {
   return (
     <section
       id="clients"
-      className="w-full h-auto py-24 flex justify-center items-center bg-primary"
+      className="w-full h-auto px-7 md:px-0 py-16 md:py-24 overflow-hidden flex justify-center items-center bg-primary"
     >
-      <div className="max-w-5xl mx-auto px-4 py-16">
+      <div className="w-full md:max-w-5xl mx-auto md:px-4 md:py-16">
         {/* Header row */}
-        <div className="flex items-start justify-between">
-          <div className="w-full px-5 flex flex-col">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between">
+          <div className="w-full md:px-5 flex flex-col">
             <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
               Clients
             </p>
@@ -64,7 +64,7 @@ export default function Testimonials() {
           </div>
 
           {/* Rating + arrows */}
-          <div className="flex items-center space-x-7 ml-auto">
+          <div className="mt-7 lg:mt-0 flex items-center space-x-7 md:ml-auto">
             <div className="flex items-center space-x-[2px]">
               <StarIcon
                 weight="fill"
@@ -92,13 +92,13 @@ export default function Testimonials() {
         </div>
 
         {/* Cards scroller */}
-        <div className="-mx-4">
+        <div className="mx-0 md:-mx-4">
           <HorizontalScroller id="testimonials-scroll">
             {items.map((t, i) => (
               <article
                 key={i}
                 className="snap-start flex flex-col justify-between bg-white/5 shrink-0
-             w-[85%] sm:w-[400px] lg:w-[480px] p-6 rounded-2xl border border-white/10"
+             md:w-[85%] w-[95%] sm:w-[400px] lg:w-[480px] p-6 rounded-2xl border border-white/10"
               >
                 <p className="font-geist font-normal text-[18px] text-white/90 leading-[160%]">
                   “{t.quote}”
@@ -125,7 +125,7 @@ function HorizontalScroller({ id, children }) {
   return (
     <div
       id={id}
-      className="mt-12 flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory px-4"
+      className="mt-12 flex gap-3 md:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory px-4"
       style={{ scrollBehavior: "smooth" }}
     >
       {children}
@@ -145,7 +145,7 @@ function CarouselArrows({ targetId }) {
     el.scrollBy({ left: dir * amount, behavior: "smooth" });
   }
   return (
-    <div className="flex items-center gap-2">
+    <div className="items-center gap-2 hidden md:flex">
       <button
         type="button"
         aria-label="Previous"

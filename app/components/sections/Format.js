@@ -8,7 +8,7 @@ const Format = () => {
   return (
     <section
       id="how-it-works"
-      className="w-full h-auto py-24 flex justify-center items-center bg-primary"
+      className="w-full h-auto py-16 md:py-24 px-7 md:px-0 flex justify-center items-center bg-primary"
     >
       <div className="w-full max-w-5xl flex flex-col">
         <div className="w-full px-5 flex flex-col">
@@ -20,9 +20,9 @@ const Format = () => {
           </h2>
         </div>
 
-        <div className="w-full flex mt-12 space-x-3">
+        <div className="w-full flex flex-col md:flex-row mt-12 md:space-x-3 space-y-3 md:space-y-0">
           {/* Box 1 */}
-          <div className="w-full h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">
@@ -32,7 +32,7 @@ const Format = () => {
               <TicketIcon weight="bold" className="w-6 h-6 text-accent" />
             </div>
 
-            <div>
+            <div className="mt-10 md:mt-0">
               <span className="font-gelica font-normal text-white text-2xl leading-[130%] tracking-[-0.04em]">
                 Buy Session
               </span>
@@ -44,7 +44,7 @@ const Format = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="w-full h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">
@@ -54,7 +54,7 @@ const Format = () => {
               <VideoIcon weight="bold" className="w-6 h-6 text-accent" />
             </div>
 
-            <div>
+            <div className="mt-10 md:mt-0">
               <span className="font-gelica font-normal text-white text-2xl leading-[130%] tracking-[-0.04em]">
                 Send Footage
               </span>
@@ -66,7 +66,7 @@ const Format = () => {
           </div>
 
           {/* Box 3 */}
-          <div className="w-full h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">
@@ -76,7 +76,7 @@ const Format = () => {
               <StrategyIcon weight="bold" className="w-6 h-6 text-accent" />
             </div>
 
-            <div>
+            <div className="mt-10 md:mt-0">
               <span className="font-gelica font-normal text-white text-2xl leading-[130%] tracking-[-0.04em]">
                 Receive Analysis
               </span>

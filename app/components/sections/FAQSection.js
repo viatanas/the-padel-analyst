@@ -6,7 +6,7 @@ const FAQSection = () => {
   return (
     <section
       id="faq"
-      className="w-full h-auto lg:py-48 py-24 px-4 lg:px-0 flex flex-col items-center bg-primary"
+      className="w-full h-auto md:py-24 py-16 px-7 md:px-0 flex flex-col items-center bg-primary"
     >
       <div className="flex flex-col w-full max-w-2xl">
         <div className="w-full px-5 flex flex-col">

@@ -13,13 +13,13 @@ import {
 
 const Benefits = () => {
   return (
-    <section className="w-full h-auto py-24 flex justify-center items-center bg-primary">
-      <div className="max-w-5xl mx-auto flex flex-col space-y-24">
+    <section className="w-full px-7 md:px-0 h-auto py-16 md:py-24 flex justify-center items-center bg-primary">
+      <div className="max-w-5xl mx-auto flex flex-col space-y-16 md:space-y-24">
         {/* Benefit 1 */}
-        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-6 md:gap-10 items-center">
           {/* Left Container */}
 
-          <div className="py-10 h-full flex flex-col justify-between">
+          <div className="py-10 h-full flex flex-col justify-between px-2 md:px-0">
             <div className="flex flex-col">
               <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
                 Personalised
@@ -35,7 +35,7 @@ const Benefits = () => {
             </div>
 
             {/* Feature bullets */}
-            <ul className="mt-10 flex flex-col space-y-5">
+            <ul className="md:mt-10 mt-16 flex flex-col space-y-5">
               <li className="flex space-x-2 items-center">
                 <StrategyIcon
                   weight="bold"
@@ -79,9 +79,9 @@ const Benefits = () => {
         </div>
 
         {/* Benefit 2 */}
-        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-6 md:gap-10 items-center ">
           {/* Left Container */}
-          <div>
+          <div className="order-2 md:order-1">
             <div className="overflow-hidden rounded-3xl">
               <img
                 src="/img/benefit-two.png"
@@ -92,7 +92,7 @@ const Benefits = () => {
           </div>
 
           {/* Right Container */}
-          <div className="py-10 h-full flex flex-col justify-between">
+          <div className="py-10 h-full flex flex-col justify-between order-1 md:order-2 px-2 md:px-0">
             <div className="flex flex-col">
               <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
                 Convenient
@@ -110,7 +110,7 @@ const Benefits = () => {
             </div>
 
             {/* Feature bullets */}
-            <ul className="mt-10 flex flex-col space-y-5">
+            <ul className="mt-16 md:mt-10 flex flex-col space-y-5">
               <li className="flex space-x-2 items-center">
                 <LightningIcon
                   weight="bold"
@@ -143,9 +143,9 @@ const Benefits = () => {
         </div>
 
         {/* Benefit 3 */}
-        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-6 md:gap-10 items-center">
           {/* Left container */}
-          <div className="py-10 h-full flex flex-col justify-between">
+          <div className="py-10 h-full flex flex-col justify-between px-2 md:px-0">
             <div className="flex flex-col">
               <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
                 Lasting
@@ -162,7 +162,7 @@ const Benefits = () => {
             </div>
 
             {/* Feature bullets */}
-            <ul className="mt-10 flex flex-col space-y-5">
+            <ul className="mt-16 md:mt-10 flex flex-col space-y-5">
               <li className="flex space-x-2 items-center">
                 <FastForwardCircleIcon
                   weight="bold"

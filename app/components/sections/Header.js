@@ -5,7 +5,7 @@ import PrimaryButton from "@/app/components/blocks/PrimaryButton";
 
 const Header = () => {
   return (
-    <header className="w-full h-auto py-24 flex justify-center items-center bg-primary">
+    <header className="w-full h-auto px-7 md:px-0 py-10 md:py-24 flex mt-20 lg:mt-0 justify-center items-center bg-primary">
       <div className="w-full flex flex-col items-center">
         <div className="max-w-[610px] w-full flex flex-col items-center">
           <div className="flex space-x-3 items-center">
@@ -16,13 +16,17 @@ const Header = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="mt-6 font-gelica text-5xl font-normal text-center leading-[130%] tracking-[-0.04em] text-white max-w-4xl">
+          <h1 className="mt-6 hidden md:block font-gelica text-5xl font-normal text-center leading-[130%] tracking-[-0.04em] text-white max-w-4xl">
             <span className="block">Send Your Padel Footage.</span>
             <span className="block">Get Pro Feedback. Level Up.</span>
           </h1>
 
+          <h1 className="mt-6 md:hidden font-gelica text-[36px] font-normal text-center leading-[120%] tracking-[-0.04em] text-white max-w-4xl">
+            Send Your Padel Footage. Get Pro Feedback. Level Up.
+          </h1>
+
           {/* Paragraph */}
-          <p className="mt-6 font-geist font-medium text-center text-lg text-white/80 leading-relaxed">
+          <p className="mt-4 md:mt-6 font-geist font-medium text-center text-base md:text-lg text-white/80 leading-relaxed">
             {` Send us your match footage and we’ll deliver a personalised video
             review, packed with clear insights, targeted fixes, and drills to
             help you sharpen your padel game. Your Playtomic rating will thank
@@ -30,7 +34,7 @@ const Header = () => {
           </p>
 
           {/* Buttons */}
-          <div className="mt-6 flex space-x-2">
+          <div className="mt-8 md:mt-6 flex space-x-2">
             <PrimaryButton />
             <Link
               href="#how-it-works"

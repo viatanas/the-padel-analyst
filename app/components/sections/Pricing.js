@@ -2,12 +2,12 @@ import { ChecksIcon } from "@phosphor-icons/react/dist/ssr";
 
 const Pricing = () => {
   return (
-    <section className="w-full h-auto py-24 flex justify-center items-center bg-primary">
+    <section className="w-full h-auto py-16 md:py-24 px-7 md:px-0 flex justify-center items-center bg-primary">
       <div className="w-full max-w-5xl flex justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start bg-white/5 p-10 rounded-3xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 items-start bg-white/5 p-4 md:p-10 rounded-3xl">
           {/* Left: copy block */}
           <div className="flex flex-col justify-between h-full">
-            <div className="p-10">
+            <div className="p-4 md:p-10">
               <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent   ">
                 Buy Session
               </p>
@@ -15,7 +15,7 @@ const Pricing = () => {
                 Ready to take your padel game to the next level?
               </h2>
             </div>
-            <div className="flex space-x-3 items-center p-10">
+            <div className="hidden md:flex space-x-3 items-center p-10">
               <div className="w-[10px] h-[10px] rounded bg-accent animate-pulse"></div>
               <span className="font-barlow font-bold text-sm uppercase text-white/60 tracking-[0.06em]">
                 Limited Slots Available
@@ -89,6 +89,13 @@ const Pricing = () => {
                 <span>£50</span>
               </button>
             </div>
+          </div>
+
+          <div className="flex md:hidden space-x-3 items-center mx-auto">
+            <div className="w-[10px] h-[10px] rounded bg-accent animate-pulse"></div>
+            <span className="font-barlow font-bold text-sm uppercase text-white/60 tracking-[0.06em]">
+              Limited Slots Available
+            </span>
           </div>
         </div>
       </div>
