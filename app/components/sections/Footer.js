@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="flex mt-10 lg:mt-0 flex-row justify-center w-full md:justify-end px-4 items-center">
           <Link
             href="/"
-            className="flex space-x-1 md:w-auto items-center w-full md:h-8 h-10 px-3 rounded-xl justify-center bg-accent transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
+            className="flex space-x-1 md:w-auto items-center w-full md:h-8 h-10 px-3 rounded-xl justify-center bg-accent/70 cursor-not-allowed transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
           >
             <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
               Book Session

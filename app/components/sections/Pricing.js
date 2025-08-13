@@ -83,7 +83,7 @@ const Pricing = () => {
 
             {/* CTA */}
             <div className="mt-20">
-              <button className="w-full h-12 rounded-xl bg-accent flex space-x-2 justify-center items-center font-barlow font-bold text-base uppercase tracking-[0.06em] text-primary">
+              <button className="w-full h-12 rounded-xl bg-accent/70 cursor-not-allowed flex space-x-2 justify-center items-center font-barlow font-bold text-base uppercase tracking-[0.06em] text-primary">
                 <span>Book Session</span>
                 <span className="opacity-20">|</span>
                 <span>£50</span>
