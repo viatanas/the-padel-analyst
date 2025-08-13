@@ -22,7 +22,7 @@ const Format = () => {
 
         <div className="w-full flex flex-col md:flex-row mt-12 md:space-x-3 space-y-3 md:space-y-0">
           {/* Box 1 */}
-          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[300px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">
@@ -44,7 +44,7 @@ const Format = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[300px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">
@@ -66,7 +66,7 @@ const Format = () => {
           </div>
 
           {/* Box 3 */}
-          <div className="w-full h-auto md:h-[400px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
+          <div className="w-full h-auto md:h-[300px] flex flex-col justify-between p-7 rounded-[20px] bg-white/10 filter backdrop-blur-sm border border-white/5">
             <div className="flex justify-between items-center">
               <div className="w-8 h-8 pb-[2px] flex justify-center items-center rounded-xl bg-white/10">
                 <span className="font-barlow font-bold text-[20px] uppercase text-white tracking-[0.06em]">

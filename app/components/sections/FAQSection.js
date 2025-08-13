@@ -35,12 +35,12 @@ const FAQSection = () => {
 
           <FAQ
             question="What level of player is this for?"
-            answer={`All levels. Whether you’ve just started or you’re competing in club leagues, we tailor the advice to where you’re at. Basically, if you want to improve your Playtomic level, this is probably the right service for you.`}
+            answer={`All levels. Whether you’ve just started or you’re competing in club leagues, we tailor the advice to where you’re at. Basically, if you want to improve your padel level, this is probably the right service for you.`}
           />
 
           <FAQ
             question="How long until I get my analysis?"
-            answer={`Usually 2–3 days after we get your footage. We’ll email you as soon as it’s ready to watch. If our coaches are busy it might take a touch longer, but limiting slots means we can still deliver quickly.`}
+            answer={`Usually 4-5 days after we get your footage. We’ll email you as soon as it’s ready to watch. If our coaches are busy it might take a touch longer, but limiting slots means we can still deliver quickly.`}
           />
 
           <FAQ
