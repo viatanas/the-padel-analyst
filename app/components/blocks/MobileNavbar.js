@@ -147,7 +147,7 @@ export default function MobileNav() {
               <Link
                 href="/"
                 onClick={closeAnd()}
-                className="flex space-x-1 items-center md:h-8 h-10 px-3 rounded-xl justify-center bg-accent transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
+                className="flex space-x-1 items-center md:h-8 h-10 px-3 rounded-xl justify-center bg-accent/40 pointer-events-none transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
               >
                 <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
                   Book Session
