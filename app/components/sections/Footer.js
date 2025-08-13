@@ -8,25 +8,25 @@ const Footer = () => {
         <div className="flex w-full md:space-x-7 justify-around md:justify-start items-center">
           <Link
             href="#how-it-works"
-            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]"
+            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             How It Works
           </Link>
           <Link
             href="#coaches"
-            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]"
+            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             Coaches
           </Link>
           <Link
             href="#clients"
-            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]"
+            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             Clients
           </Link>
           <Link
             href="#faq"
-            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]"
+            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             FAQ
           </Link>

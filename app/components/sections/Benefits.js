@@ -42,7 +42,7 @@ const Benefits = () => {
                   className="w-[18px] h-[18px] text-accent"
                 />
                 <span className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-white/90">
-                  {`Spot habits you don’t notice mid-match`}
+                  {`Spot misplays you don’t notice mid-match`}
                 </span>
               </li>
               <li className="flex space-x-2 items-center">
@@ -154,10 +154,7 @@ const Benefits = () => {
                 Feedback that sticks.
               </h2>
               <p className="mt-5 font-geist font-normal text-base text-white/80">
-                {` Most coaching fades from memory the moment you leave the court.
-                With your own review video, you can rewatch it whenever you
-                need, refresh every tip, and make the changes stick. Perfect for
-                those moments when you’re forced onto one leg.`}
+                {` Most coaching fades from memory the moment you leave the court. With your own review video, you can rewatch it whenever you need, refresh every tip, and make the changes stick. So even on one leg, your game stays solid.`}
               </p>
             </div>
 

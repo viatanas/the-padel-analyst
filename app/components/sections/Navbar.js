@@ -24,10 +24,18 @@ const Navbar = () => {
               {/* <Logo /> */}
             </div>
             <div className="flex items-center space-x-8 font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]">
-              <Link href="#how-it-works">How It Works</Link>
-              <Link href="#coaches">Coaches</Link>
-              <Link href="#clients">Clients</Link>
-              <Link href="#faq">FAQ</Link>
+              <Link href="#how-it-works" className="hover:text-white">
+                How It Works
+              </Link>
+              <Link href="#coaches" className="hover:text-white">
+                Coaches
+              </Link>
+              <Link href="#clients" className="hover:text-white">
+                Clients
+              </Link>
+              <Link href="#faq" className="hover:text-white">
+                FAQ
+              </Link>
             </div>
             <div className="flex flex-1 justify-end">
               <PrimaryButton />

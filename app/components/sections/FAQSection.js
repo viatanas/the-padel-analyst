@@ -29,6 +29,11 @@ const FAQSection = () => {
           />
 
           <FAQ
+            question="How does the coaching credit work?"
+            answer={`When you buy a session, you get a credit for one full video review. You can use it right away or wait up to 12 months before sending us your footage. Once we have your video, we’ll get to work and send your personalised analysis back in a couple of days.`}
+          />
+
+          <FAQ
             question="What level of player is this for?"
             answer={`All levels. Whether you’ve just started or you’re competing in club leagues, we tailor the advice to where you’re at. Basically, if you want to improve your Playtomic level, this is probably the right service for you.`}
           />

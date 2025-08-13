@@ -38,7 +38,7 @@ const Header = () => {
             <PrimaryButton />
             <Link
               href="#how-it-works"
-              className="flex space-x-1 items-center h-8 px-3 rounded-xl bg-white/20 transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
+              className="flex space-x-1 items-center h-8 px-3 rounded-xl bg-white/20 hover:bg-white/25 transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
             >
               <span className="font-barlow font-bold text-sm uppercase text-white tracking-[0.06em]">
                 How It Works
