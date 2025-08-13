@@ -125,7 +125,7 @@ function HorizontalScroller({ id, children }) {
   return (
     <div
       id={id}
-      className="mt-12 flex gap-3 md:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory px-4"
+      className="mt-12 flex gap-3 md:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory px-4 no-scrollbar"
       style={{ scrollBehavior: "smooth" }}
     >
       {children}
