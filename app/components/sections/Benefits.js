@@ -13,7 +13,7 @@ import {
 
 const Benefits = () => {
   return (
-    <section className="w-full px-7 md:px-0 h-auto py-16 md:py-24 flex justify-center items-center bg-primary">
+    <section className="w-full px-4 md:px-0 h-auto py-16 md:py-24 flex justify-center items-center bg-primary">
       <div className="max-w-5xl mx-auto flex flex-col space-y-16 md:space-y-24">
         {/* Benefit 1 */}
         <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-6 md:gap-10 items-center">

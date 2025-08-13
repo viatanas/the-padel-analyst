@@ -2,7 +2,7 @@ import { ChecksIcon } from "@phosphor-icons/react/dist/ssr";
 
 const Pricing = () => {
   return (
-    <section className="w-full h-auto py-16 md:py-24 px-7 md:px-0 flex justify-center items-center bg-primary">
+    <section className="w-full h-auto py-16 md:py-24 px-4 md:px-0 flex justify-center items-center bg-primary">
       <div className="w-full max-w-5xl flex justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 items-start bg-white/5 p-4 md:p-10 rounded-3xl">
           {/* Left: copy block */}

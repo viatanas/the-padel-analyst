@@ -4,7 +4,7 @@ const Coaches = () => {
   return (
     <section
       id="coaches"
-      className="w-full h-auto py-16 md:py-24 flex justify-center px-7 md:px-0 items-center bg-primary"
+      className="w-full h-auto py-16 md:py-24 flex justify-center px-4 md:px-0 items-center bg-primary"
     >
       <div className="w-full max-w-5xl flex flex-col">
         <div className="w-full px-5 flex flex-col">

@@ -6,7 +6,7 @@ const FAQSection = () => {
   return (
     <section
       id="faq"
-      className="w-full h-auto md:py-24 py-16 px-7 md:px-0 flex flex-col items-center bg-primary"
+      className="w-full h-auto md:py-24 py-16 px-4 md:px-0 flex flex-col items-center bg-primary"
     >
       <div className="flex flex-col w-full max-w-2xl">
         <div className="w-full px-5 flex flex-col">
@@ -44,7 +44,7 @@ const FAQSection = () => {
           />
         </div>
 
-        <div className="w-full mt-12 flex justify-center space-x-2 items-center font-barlow font-bold text-sm uppercase tracking-[0.06em]">
+        {/* <div className="w-full mt-12 flex justify-center space-x-2 items-center font-barlow font-bold text-sm uppercase tracking-[0.06em]">
           <div className="text-white/60">HAVE A QUESTION?</div>
           <div className="flex space-x-1 items-center text-white group hover:opacity-80">
             <Link href="mailto:contact@fairmere.com">DROP US AN EMAIL</Link>
@@ -53,7 +53,7 @@ const FAQSection = () => {
               className="w-[13px] h-[13px] text-white group-hover:translate-x-1 transform transition duration-200"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

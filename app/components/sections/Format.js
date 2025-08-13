@@ -8,7 +8,7 @@ const Format = () => {
   return (
     <section
       id="how-it-works"
-      className="w-full h-auto py-16 md:py-24 px-7 md:px-0 flex justify-center items-center bg-primary"
+      className="w-full h-auto py-16 md:py-24 px-4 md:px-0 flex justify-center items-center bg-primary"
     >
       <div className="w-full max-w-5xl flex flex-col">
         <div className="w-full px-5 flex flex-col">

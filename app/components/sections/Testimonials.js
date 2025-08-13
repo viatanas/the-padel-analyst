@@ -49,7 +49,7 @@ export default function Testimonials() {
   return (
     <section
       id="clients"
-      className="w-full h-auto px-7 md:px-0 py-16 md:py-24 overflow-hidden flex justify-center items-center bg-primary"
+      className="w-full h-auto px-4 md:px-0 py-16 md:py-24 overflow-hidden flex justify-center items-center bg-primary"
     >
       <div className="w-full md:max-w-5xl mx-auto md:px-4 md:py-16">
         {/* Header row */}
