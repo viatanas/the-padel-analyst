@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className="w-full h-auto fixed bg-primary/50 z-[999999] filter backdrop-blur py-3 px-10">
           <div className="w-full max-w-[1200px] mx-auto flex items-center justify-between">
             <div className="flex flex-1">
-              <img src="/img/logo-2.png" className="w-[180px] pb-3" />
+              <img src="/img/logo.png" className="w-[180px]" />
               {/* <Logo /> */}
             </div>
             <div className="flex items-center space-x-8 font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]">
