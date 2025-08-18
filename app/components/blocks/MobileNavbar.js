@@ -54,8 +54,8 @@ export default function MobileNav() {
         <div className="flex-1">
           {/* Use a light/dark logo variant if you have both; defaulting to the same */}
           <img
-            src="/img/logo-padel.png"
-            alt="The Padel Analyst"
+            src="/img/logo-2.png"
+            alt="Point Rewind"
             className="h-8 w-auto"
           />
         </div>
@@ -97,8 +97,8 @@ export default function MobileNav() {
             {/* Menu header */}
             <div className="flex items-center justify-between w-full px-1">
               <img
-                src="/img/logo-padel.png"
-                alt="The Padel Analyst"
+                src="/img/logo-2.png"
+                alt="Point Rewind"
                 className="h-8 w-auto"
               />
               <button

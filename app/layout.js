@@ -1,11 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Padel Analyst • Online Padel Coaching Made Easy",
+  title: "Point Rewind • Online Padel Coaching Made Easy",
   description:
     "Send us your match clips and get expert feedback tailored to your game.",
   openGraph: {
-    title: "Padel Analyst • Online Padel Coaching Made Easy",
+    title: "Point Rewind • Online Padel Coaching Made Easy",
     description:
       "Send us your match footage and get expert feedback tailored to your game.",
     images: [
@@ -13,7 +13,7 @@ export const metadata = {
         url: "/img/og.png",
         width: 1200,
         height: 630,
-        alt: "Padel Analyst • Online Padel Coaching Made Easy",
+        alt: "Point Rewind • Online Padel Coaching Made Easy",
       },
     ],
   },

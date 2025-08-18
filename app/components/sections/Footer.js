@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-y-6 translate-y-1 w-full px-7 md:px-0 max-w-5xl">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-y-2 translate-y-1 w-full px-7 md:px-0 max-w-5xl">
         <img src="/img/footer-logo.png" className="w-full opacity-10"></img>
       </div>
     </footer>
