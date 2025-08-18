@@ -5,7 +5,7 @@ import PrimaryButton from "@/app/components/blocks/PrimaryButton";
 
 const Header = () => {
   return (
-    <header className="w-full h-auto px-7 md:px-0 py-10 md:py-24 flex mt-20 lg:mt-0 justify-center items-center bg-primary">
+    <header className="w-full h-auto px-7 md:px-0 py-10 md:pb-24 md:pt-48 flex mt-20 lg:mt-0 justify-center items-center bg-primary">
       <div className="w-full flex flex-col items-center">
         <div className="max-w-[610px] w-full flex flex-col items-center">
           <div className="flex space-x-3 items-center">

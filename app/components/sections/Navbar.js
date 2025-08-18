@@ -17,7 +17,7 @@ const Navbar = () => {
 
       {/* Desktop Navbar */}
       <div className="hidden md:flex">
-        <nav className="w-full h-auto bg-primary p-10">
+        <nav className="w-full h-auto fixed bg-primary/50 z-[999999] filter backdrop-blur py-3 px-10">
           <div className="w-full max-w-[1200px] mx-auto flex items-center justify-between">
             <div className="flex flex-1">
               <img src="/img/logo-2.png" className="w-[180px] pb-3" />
