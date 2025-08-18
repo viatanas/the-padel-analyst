@@ -1,4 +1,5 @@
 import { ChecksIcon } from "@phosphor-icons/react/dist/ssr";
+import Link from "next/link";
 
 const Pricing = () => {
   return (
@@ -83,11 +84,14 @@ const Pricing = () => {
 
             {/* CTA */}
             <div className="mt-20">
-              <button className="w-full h-12 rounded-xl bg-accent/40 pointer-events-none cursor-not-allowed flex space-x-2 justify-center items-center font-barlow font-bold text-base uppercase tracking-[0.06em] text-primary">
+              <Link
+                href="https://buy.stripe.com/eVq3cvf0k9dn9WEglueQM00"
+                className="w-full h-12 rounded-xl bg-accent lg:hover:bg-accent/90 flex space-x-2 justify-center items-center font-barlow font-bold text-base uppercase tracking-[0.06em] text-primary"
+              >
                 <span>Book Session</span>
                 <span className="opacity-20">|</span>
                 <span>£50</span>
-              </button>
+              </Link>
             </div>
           </div>
 
