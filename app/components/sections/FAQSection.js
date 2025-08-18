@@ -49,16 +49,16 @@ const FAQSection = () => {
           />
         </div>
 
-        {/* <div className="w-full mt-12 flex justify-center space-x-2 items-center font-barlow font-bold text-sm uppercase tracking-[0.06em]">
+        <div className="w-full mt-12 flex justify-center space-x-2 items-center font-barlow font-bold text-sm uppercase tracking-[0.06em]">
           <div className="text-white/60">HAVE A QUESTION?</div>
           <div className="flex space-x-1 items-center text-white group hover:opacity-80">
-            <Link href="mailto:contact@fairmere.com">DROP US AN EMAIL</Link>
+            <Link href="mailto:contact@pointrewind.com">DROP US AN EMAIL</Link>
             <ArrowRightIcon
               weight="bold"
               className="w-[13px] h-[13px] text-white group-hover:translate-x-1 transform transition duration-200"
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
