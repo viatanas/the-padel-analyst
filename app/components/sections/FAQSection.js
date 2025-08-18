@@ -25,7 +25,7 @@ const FAQSection = () => {
 
           <FAQ
             question="Can I use footage I already have?"
-            answer={`Yep. When you buy your session, we’ll send you an upload link straight away. You can use it to send footage you already have, or save it and upload a new recording anytime within 12 months.`}
+            answer={`Yep. When you buy your session, we’ll send you an upload link straight away. You can use it to send footage you already have, or save it and upload a new recording anytime within 30 days.`}
           />
 
           <FAQ
