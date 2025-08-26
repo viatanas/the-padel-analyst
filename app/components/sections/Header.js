@@ -57,7 +57,7 @@ const Header = () => {
             /> */}
             <img
               className="w-auto h-auto rounded-[20px] border-[10px] border-white/10"
-              src="/img/demo-4.png"
+              src="/img/header-image.png"
               alt="Padel video thumbnail"
             />
 
