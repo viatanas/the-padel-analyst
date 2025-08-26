@@ -51,25 +51,29 @@ const Header = () => {
         <div className="mt-16 w-full items-center max-w-[918px]">
           <div className="relative">
             {/* Thumbnail */}
+            {/* <video
+              src="/img/demo.mp4"
+              className="border-8 border-white/10 rounded-xl"
+            /> */}
             <img
-              className="w-auto h-auto rounded-[20px]"
-              src="/img/video-thumbnail.png"
+              className="w-auto h-auto rounded-[20px] border-[10px] border-white/10"
+              src="/img/demo-4.png"
               alt="Padel video thumbnail"
             />
 
             {/* Play button overlay */}
-            <button
+            {/* <button
               className="absolute inset-0 flex items-center justify-center"
               aria-label="Play video"
             >
               <div className="w-[84px] h-[84px] bg-white/40 filter backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform">
                 <PlayIcon weight="fill" className="w-10 h-10 text-white" />
               </div>
-            </button>
+            </button> */}
           </div>
 
           {/* Caption */}
-          <div className="mt-5 flex justify-center items-center space-x-3">
+          {/* <div className="mt-5 flex justify-center items-center space-x-3">
             <CaretUpIcon
               weight="bold"
               className="w-[15px] h-[15px] text-accent"
@@ -81,7 +85,7 @@ const Header = () => {
               weight="bold"
               className="w-[15px] h-[15px] text-accent"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
