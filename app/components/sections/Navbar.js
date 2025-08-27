@@ -12,9 +12,7 @@ const Navbar = () => {
     <>
       {/* Mobile Navbar */}
       <div className="flex md:hidden">
-        <Link href="/">
-          <MobileNav />
-        </Link>
+        <MobileNav />
       </div>
 
       {/* Desktop Navbar */}
