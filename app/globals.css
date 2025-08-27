@@ -12,6 +12,16 @@
   scrollbar-width: none; /* Firefox */
 }
 
+/* height of your fixed navbar */
+:root {
+  --nav-h: 120px;
+} /* change to your navbar height */
+
+html {
+  scroll-padding-top: var(--nav-h);
+  scroll-behavior: smooth; /* optional */
+}
+
 /* Font - Gelica */
 
 @font-face {

@@ -109,28 +109,28 @@ export default function MobileNav() {
             {/* Links */}
             <div className="flex flex-col gap-5 w-full px-1 mt-6">
               <Link
-                href="#how-it-works"
+                href="/#how-it-works"
                 onClick={closeAnd()}
                 className={`${linkBase} text-white/80 hover:text-white`}
               >
                 How It Works
               </Link>
               <Link
-                href="#coaches"
+                href="/#coaches"
                 onClick={closeAnd()}
                 className={`${linkBase} text-white/80 hover:text-white`}
               >
                 Coaches
               </Link>
               <Link
-                href="#clients"
+                href="/#clients"
                 onClick={closeAnd()}
                 className={`${linkBase} text-white/80 hover:text-white`}
               >
                 Clients
               </Link>
               <Link
-                href="#faq"
+                href="/#faq"
                 onClick={closeAnd()}
                 className={`${linkBase} text-white/80 hover:text-white`}
               >

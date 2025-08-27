@@ -12,7 +12,9 @@ const Navbar = () => {
     <>
       {/* Mobile Navbar */}
       <div className="flex md:hidden">
-        <MobileNav />
+        <Link href="/">
+          <MobileNav />
+        </Link>
       </div>
 
       {/* Desktop Navbar */}
@@ -20,20 +22,22 @@ const Navbar = () => {
         <nav className="w-full h-auto fixed bg-primary/50 z-[999999] filter backdrop-blur py-5 px-10">
           <div className="w-full max-w-[1200px] mx-auto flex items-center justify-between">
             <div className="flex flex-1">
-              <img src="/img/logo.png" className="w-[180px]" />
+              <Link href="/">
+                <img src="/img/logo.png" className="w-[180px]" />
+              </Link>
               {/* <Logo /> */}
             </div>
             <div className="flex items-center space-x-8 font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em]">
-              <Link href="#how-it-works" className="hover:text-white">
+              <Link href="/#how-it-works" className="hover:text-white">
                 How It Works
               </Link>
-              <Link href="#coaches" className="hover:text-white">
+              <Link href="/#coaches" className="hover:text-white">
                 Coaches
               </Link>
-              <Link href="#clients" className="hover:text-white">
+              <Link href="/#clients" className="hover:text-white">
                 Clients
               </Link>
-              <Link href="#faq" className="hover:text-white">
+              <Link href="/#faq" className="hover:text-white">
                 FAQ
               </Link>
             </div>

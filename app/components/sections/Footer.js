@@ -7,28 +7,34 @@ const Footer = () => {
       <div className="w-full max-w-5xl flex flex-col md:flex-row md:justify-between items-center pb-12 border-b-2 border-white/5">
         <div className="flex w-full md:space-x-7 justify-around md:justify-start items-center">
           <Link
-            href="#how-it-works"
+            href="/#how-it-works"
             className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             How It Works
           </Link>
           <Link
-            href="#coaches"
+            href="/#coaches"
             className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             Coaches
           </Link>
           <Link
-            href="#clients"
+            href="/#clients"
             className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             Clients
           </Link>
           <Link
-            href="#faq"
+            href="/#faq"
             className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             FAQ
+          </Link>
+          <Link
+            href="/privacy-policy"
+            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
+          >
+            Privacy Policy
           </Link>
         </div>
         <div className="flex mt-10 lg:mt-0 flex-row justify-center w-full md:justify-end px-4 items-center">
