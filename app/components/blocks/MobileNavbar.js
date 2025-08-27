@@ -53,7 +53,13 @@ export default function MobileNav() {
       <div className="flex items-center justify-between w-full p-5">
         <div className="flex-1">
           {/* Use a light/dark logo variant if you have both; defaulting to the same */}
-          <img src="/img/logo.png" alt="Point Rewind" className="h-8 w-auto" />
+          <Link href="/">
+            <img
+              src="/img/logo.png"
+              alt="Point Rewind"
+              className="h-8 w-auto"
+            />
+          </Link>
         </div>
 
         {!open && (
