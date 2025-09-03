@@ -72,7 +72,7 @@ const Benefits = () => {
               <img
                 src="/img/benefit-one.png"
                 alt="Two padel players at the net during a match"
-                className="w-full h-auto object-cover grayscale"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
