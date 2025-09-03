@@ -86,9 +86,9 @@ const Benefits = () => {
           <div className="order-2 md:order-1">
             <div className="overflow-hidden rounded-3xl">
               <img
-                src="/img/benefit-two.png"
+                src="/img/benefit-two.jpg"
                 alt="Two padel players at the net during a match"
-                className="w-full h-auto object-cover grayscale"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -198,7 +198,7 @@ const Benefits = () => {
               <img
                 src="/img/benefit-three.png"
                 alt="Two padel players at the net during a match"
-                className="w-full h-auto object-cover grayscale"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
