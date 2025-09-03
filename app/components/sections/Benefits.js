@@ -78,6 +78,8 @@ const Benefits = () => {
           </div>
         </div>
 
+        {/*  */}
+
         {/* Benefit 2 */}
         <div className="grid grid-cols-1 h-full md:grid-cols-2 gap-6 md:gap-10 items-center ">
           {/* Left Container */}
