@@ -1,15 +1,29 @@
+"use client";
+
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { CaretUpIcon, PlayIcon } from "@phosphor-icons/react/dist/ssr";
-
 import PrimaryButton from "@/app/components/blocks/PrimaryButton";
 
 const Header = () => {
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    const v = videoRef.current;
+    if (!v) return;
+    v.controls = true; // show native controls
+    v.play(); // start playback
+    setIsPlaying(true); // hide overlay
+  };
+
   return (
     <header className="w-full h-auto px-7 md:px-0 py-10 md:pb-24 md:pt-48 flex mt-20 lg:mt-0 justify-center items-center bg-primary">
       <div className="w-full flex flex-col items-center">
+        {/* Top content */}
         <div className="max-w-[610px] w-full flex flex-col items-center">
           <div className="flex space-x-3 items-center">
-            <div className="w-[10px] h-[10px] rounded bg-accent animate-pulse"></div>
+            <div className="w-[10px] h-[10px] rounded bg-accent animate-pulse" />
             <span className="font-barlow font-bold text-sm uppercase text-white/60 tracking-[0.06em]">
               Limited Slots Available
             </span>
@@ -48,44 +62,52 @@ const Header = () => {
         </div>
 
         {/* Video */}
-        <div className="mt-16 w-full items-center max-w-[918px]">
-          <div className="relative">
-            {/* Thumbnail */}
-            {/* <video
-              src="/img/demo.mp4"
-              className="border-8 border-white/10 rounded-xl"
-            /> */}
-            <img
-              className="w-auto h-auto rounded-[20px] border-[10px] border-white/10"
-              src="/img/header-image.png"
-              alt="Padel video thumbnail"
+        <div className="md:mt-16 mt-12 w-full items-center max-w-5xl">
+          <div className="relative group z-50">
+            <video
+              ref={videoRef}
+              src="https://tyb51xtyept4442y.public.blob.vercel-storage.com/point-rewind-review"
+              className="border-8 border-white/10 rounded-xl w-full"
+              poster="/img/video-preview.png"
+              controls={false}
+              onEnded={() => setIsPlaying(false)} // show overlay again at end
+              onPause={() => {
+                // If the user pauses before seeking, keep controls but show overlay again if at start
+                const v = videoRef.current;
+                if (v && v.currentTime === 0) setIsPlaying(false);
+              }}
             />
 
-            {/* Play button overlay */}
-            {/* <button
-              className="absolute inset-0 flex items-center justify-center"
-              aria-label="Play video"
-            >
-              <div className="w-[84px] h-[84px] bg-white/40 filter backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform">
-                <PlayIcon weight="fill" className="w-10 h-10 text-white" />
-              </div>
-            </button> */}
+            {!isPlaying && (
+              <button
+                onClick={handlePlay}
+                className="absolute inset-0 flex items-center justify-center"
+                aria-label="Play video"
+              >
+                <div className="md:w-[110px] md:h-[110px] w-16 h-16 bg-white/40 filter backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                  <PlayIcon
+                    weight="fill"
+                    className="md:w-12 md:h-12 w-8 h-8 text-white"
+                  />
+                </div>
+              </button>
+            )}
           </div>
 
           {/* Caption */}
-          {/* <div className="mt-5 flex justify-center items-center space-x-3">
+          <div className="mt-5 flex justify-center items-center space-x-3 z-0">
             <CaretUpIcon
               weight="bold"
               className="w-[15px] h-[15px] text-accent"
             />
             <span className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-white/60">
-              Watch Our Latest Online Coaching Analysis
+              See Coaching in Action
             </span>
             <CaretUpIcon
               weight="bold"
               className="w-[15px] h-[15px] text-accent"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </header>

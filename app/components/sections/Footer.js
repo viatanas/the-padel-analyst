@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex w-full md:space-x-7 justify-around md:justify-start items-center">
           <Link
             href="/#how-it-works"
-            className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
+            className="font-barlow hidden md:flex font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
             How It Works
           </Link>

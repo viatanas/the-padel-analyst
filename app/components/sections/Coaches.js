@@ -1,4 +1,5 @@
 import { ChecksIcon } from "@phosphor-icons/react/dist/ssr";
+import CoachBubblesCarousel from "../blocks/CoachBubblesCarousel";
 
 const Coaches = () => {
   return (
@@ -7,17 +8,21 @@ const Coaches = () => {
       className="w-full h-auto py-16 md:py-24 flex justify-center px-4 md:px-0 items-center bg-primary"
     >
       <div className="w-full max-w-5xl flex flex-col">
-        <div className="w-full px-5 flex flex-col">
+        <div className="w-full px-5 flex flex-col items-center">
           <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
             Our Coaches
           </p>
-          <h2 className="mt-7 font-gelica font-normal text-white text-3xl leading-[130%] tracking-[-0.04em]">
+          <h2 className="mt-7 font-gelica font-normal text-center text-white text-3xl leading-[130%] tracking-[-0.04em]">
             World Class Coaches, Players, People.
           </h2>
+          <p className="mt-5 font-geist font-normal text-[17px] text-white/80 text-center w-full md:w-7/12">
+            {`Our coaches aren’t just experts. They’re padel fans just like you. They know the struggles, the wins, and how to help you improve`}
+          </p>
         </div>
 
-        <div className="w-full flex flex-col md:flex-row md:space-x-3 space-y-16 md:space-y-0 mt-[48px]">
-          {/* Coach 1 */}
+        <CoachBubblesCarousel />
+
+        {/* <div className="w-full flex flex-col md:flex-row md:space-x-3 space-y-16 md:space-y-0 mt-[48px]">
           <div className="w-full h-auto flex flex-col">
             <img src="/img/coach-one.png" className="grayscale w-full h-auto" />
             <span className="mt-6 font-gelica font-normal text-white text-[28px] leading-[130%] tracking-[-0.04em]">
@@ -61,7 +66,6 @@ const Coaches = () => {
             </div>
           </div>
 
-          {/* Coach 2 */}
           <div className="w-full h-auto flex flex-col">
             <img src="/img/coach-two.png" className="grayscale w-full h-auto" />
             <span className="mt-6 font-gelica font-normal text-white text-[28px] leading-[130%] tracking-[-0.04em]">
@@ -104,7 +108,7 @@ const Coaches = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -22,6 +22,39 @@ html {
   scroll-behavior: smooth; /* optional */
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* move one full copy width */
+}
+
+.animate-scroll {
+  animation: scroll var(--marquee-dur, 30s) linear infinite;
+}
+
+/* Speed it up on smaller screens */
+@media (max-width: 768px) {
+  .animate-scroll {
+    --marquee-dur: 20s;
+  }
+}
+@media (max-width: 480px) {
+  .animate-scroll {
+    --marquee-dur: 20s;
+  }
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll {
+    animation: none;
+    transform: none;
+  }
+}
+
 /* Font - Gelica */
 
 @font-face {

@@ -7,12 +7,11 @@ export default function ThankYou() {
     <>
       <Script id="fb-purchase" strategy="afterInteractive">
         {`
-      fbq('track', 'Purchase', {
-      value: 50,
-      currency: 'GBP'
-        });
-        
-      `}
+          fbq('track', 'Purchase', {
+            value: 50,
+            currency: 'GBP'
+          });
+        `}
       </Script>
 
       <main className="w-screen h-screen flex flex-col items-center bg-background">

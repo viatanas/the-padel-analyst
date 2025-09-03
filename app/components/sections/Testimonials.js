@@ -53,8 +53,8 @@ export default function Testimonials() {
     >
       <div className="w-full md:max-w-5xl mx-auto md:px-4 md:py-16">
         {/* Header row */}
-        <div className="flex flex-col md:flex-row md:items-start md:justify-between">
-          <div className="w-full md:px-5 flex flex-col">
+        <div className="flex px-5 flex-col md:flex-row md:items-start md:justify-between">
+          <div className="w-full  flex flex-col">
             <p className="font-barlow font-bold text-sm uppercase tracking-[0.06em] text-accent">
               Clients
             </p>
