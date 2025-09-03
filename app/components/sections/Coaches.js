@@ -15,7 +15,7 @@ const Coaches = () => {
           <h2 className="mt-7 font-gelica font-normal text-center text-white text-3xl leading-[130%] tracking-[-0.04em]">
             World Class Coaches, Players, People.
           </h2>
-          <p className="mt-5 font-geist font-normal text-[17px] text-white/80 text-center w-full md:first-letter:w-7/12">
+          <p className="mt-5 font-geist font-normal text-[17px] text-white/80 text-center w-full md:w-7/12">
             {`Our coaches aren’t just experts. They’re padel fans just like you. They know the struggles, the wins, and how to help you improve`}
           </p>
         </div>
