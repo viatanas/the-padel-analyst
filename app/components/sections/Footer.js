@@ -43,7 +43,7 @@ const Footer = () => {
             className="flex space-x-1 md:w-auto items-center w-full md:h-8 h-10 px-3 rounded-xl justify-center lg:hover:bg-accent/90 bg-accent transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
           >
             <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
-              Upload Footage
+              Upload Recording
             </span>
             <Arrow />
           </Link>

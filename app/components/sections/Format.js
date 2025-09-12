@@ -16,7 +16,7 @@ const Format = () => {
             How It Works
           </p>
           <h2 className="mt-7 font-gelica font-normal text-white text-3xl leading-[130%] tracking-[-0.04em]">
-            Upload Footage. Send Footage. Receive Analysis.
+            Upload Recording. Send Footage. Receive Analysis.
           </h2>
         </div>
 
