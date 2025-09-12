@@ -31,12 +31,12 @@ const Header = () => {
 
           {/* Main Heading */}
           <h1 className="mt-6 hidden md:block font-gelica text-5xl font-normal text-center leading-[130%] tracking-[-0.04em] text-white max-w-4xl">
-            <span className="block">Send Your Padel Footage.</span>
+            <span className="block">Send Your Padel Recording.</span>
             <span className="block">Get Pro Feedback. Level Up.</span>
           </h1>
 
           <h1 className="mt-6 md:hidden font-gelica text-[36px] font-normal text-center leading-[120%] tracking-[-0.04em] text-white max-w-4xl">
-            Send Your Padel Footage. Get Pro Feedback. Level Up.
+            Send Your Padel Recording. Get Pro Feedback. Level Up.
           </h1>
 
           {/* Paragraph */}
