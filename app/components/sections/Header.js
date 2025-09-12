@@ -67,7 +67,7 @@ const Header = () => {
             <video
               ref={videoRef}
               src="https://tyb51xtyept4442y.public.blob.vercel-storage.com/point-rewind-review"
-              className="border-8 border-white/10 rounded-xl w-full"
+              className="border-8 border-white/10 rounded-2xl w-full"
               poster="/img/video-preview.png"
               controls={false}
               onEnded={() => setIsPlaying(false)} // show overlay again at end
