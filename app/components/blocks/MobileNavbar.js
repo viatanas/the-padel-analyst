@@ -147,12 +147,12 @@ export default function MobileNav() {
             {/* CTA */}
             <div className="mt-6 px-1">
               <Link
-                href="https://buy.stripe.com/eVq3cvf0k9dn9WEglueQM00"
+                href="/#pricing"
                 onClick={closeAnd()}
                 className="flex space-x-1 items-center md:h-8 h-10 px-3 rounded-xl justify-center bg-accent transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
               >
                 <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
-                  Upload Recording
+                  See Pricing
                 </span>
                 <Arrow />
               </Link>

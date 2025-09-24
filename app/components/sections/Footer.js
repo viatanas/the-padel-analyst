@@ -39,13 +39,13 @@ const Footer = () => {
         </div>
         <div className="flex mt-10 lg:mt-0 flex-row justify-center w-full md:justify-end px-4 items-center">
           <Link
-            href="https://buy.stripe.com/eVq3cvf0k9dn9WEglueQM00"
+            href="/#pricing"
             className="flex space-x-1 md:w-auto items-center w-full md:h-8 h-10 px-3 rounded-xl justify-center lg:hover:bg-accent/90 bg-accent transition-transform duration-150 ease-out motion-safe:active:scale-[0.98]"
           >
             <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
-              Upload Recording
+              See Pricing
             </span>
-            <Arrow />
+            {/* <Arrow /> */}
           </Link>
         </div>
       </div>

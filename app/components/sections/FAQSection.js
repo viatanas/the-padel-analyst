@@ -25,12 +25,7 @@ const FAQSection = () => {
 
           <FAQ
             question="Can I use footage I already have?"
-            answer={`Yep. When you buy your session, we’ll send you an upload link straight away. You can use it to send footage you already have, or save it and upload a new recording anytime within 30 days.`}
-          />
-
-          <FAQ
-            question="How does the coaching credit work?"
-            answer={`When you buy a session, you get a credit for one full video review. You can use it right away or wait up to 30 days before sending us your footage. Once we have your video, we’ll get to work and send your personalised analysis back in a couple of days.`}
+            answer={`Yep. When you buy a video review, we’ll send you an upload link straight away. You can use it to send footage you already have, or save it and upload a new recording anytime within 30 days.`}
           />
 
           <FAQ
