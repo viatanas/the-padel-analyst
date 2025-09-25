@@ -32,8 +32,8 @@ const Navbar = () => {
               <Link href="/#coaches" className="hover:text-white">
                 Coaches
               </Link>
-              <Link href="/story" className="hover:text-white">
-                Our Story
+              <Link href="/#how-it-works" className="hover:text-white">
+                How It Works
               </Link>
               <Link href="/#faq" className="hover:text-white">
                 FAQ
