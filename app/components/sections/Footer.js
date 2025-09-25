@@ -19,10 +19,10 @@ const Footer = () => {
             Coaches
           </Link>
           <Link
-            href="/#clients"
+            href="/story"
             className="font-barlow font-bold text-sm uppercase text-white/80 tracking-[0.06em] hover:text-white"
           >
-            Clients
+            Our Story
           </Link>
           <Link
             href="/#faq"

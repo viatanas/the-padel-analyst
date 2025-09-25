@@ -129,11 +129,11 @@ export default function MobileNav() {
                 Coaches
               </Link>
               <Link
-                href="/#clients"
+                href="/story"
                 onClick={closeAnd()}
                 className={`${linkBase} text-white/80 hover:text-white`}
               >
-                Clients
+                Our Story
               </Link>
               <Link
                 href="/#faq"
