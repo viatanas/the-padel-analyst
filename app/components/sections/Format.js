@@ -34,11 +34,11 @@ const Format = () => {
 
             <div className="mt-10 md:mt-0">
               <span className="font-gelica font-normal text-white text-2xl leading-[130%] tracking-[-0.04em]">
-                Buy Session
+                Choose Package
               </span>
               <p className="mt-3 font-geist font-normal text-[18px] text-white/60 leading-[160%]">
-                Purchase a single coaching credit - no subscriptions, just one
-                focused session.
+                Pick 1, 3, or 5 video reviews, depending on how much progress
+                tracking you want.
               </p>
             </div>
           </div>
@@ -59,8 +59,8 @@ const Format = () => {
                 Send Footage
               </span>
               <p className="mt-3 font-geist font-normal text-[18px] text-white/60 leading-[160%]">
-                Share a video today, or film later and use your coaching credit
-                when it suits you.
+                Send your gameplay video whenever it works best for you - right
+                after a match or later on.
               </p>
             </div>
           </div>
