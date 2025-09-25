@@ -154,7 +154,6 @@ export default function MobileNav() {
                 <span className="font-barlow font-bold text-sm uppercase text-primary tracking-[0.06em]">
                   See Pricing
                 </span>
-                <Arrow />
               </Link>
             </div>
           </div>
