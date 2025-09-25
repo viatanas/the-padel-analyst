@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="w-full h-auto flex flex-col">
       <Navbar />
-      <main className="w-full max-w-[1200px] mt-52 flex flex-col items-center mx-auto px-6 md:px-0">
+      <main className="w-full max-w-3xl mt-52 flex flex-col items-center mx-auto px-6 md:px-0">
         <div className="flex flex-col items-center w-full h-auto">
           <h1 className="font-gelica text-[52px] font-normal text-center leading-[120%] tracking-[-0.04em] text-white">
             Privacy Policy
