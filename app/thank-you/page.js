@@ -1,14 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import Arrow from "@/app/components/blocks/Arrow";
 import Script from "next/script";
+import { useSearchParams } from "next/navigation";
 
 export default function ThankYou() {
+  const searchParams = useSearchParams();
+  const value = searchParams.get("value") || "0";
+
+  console.log(value);
+
   return (
     <>
       <Script id="fb-purchase" strategy="afterInteractive">
         {`
           fbq('track', 'Purchase', {
-            value: 50,
+            value: ${value},
             currency: 'GBP'
           });
         `}
