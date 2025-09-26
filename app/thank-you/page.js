@@ -1,15 +1,11 @@
-"use client";
-
 import Link from "next/link";
 import Arrow from "@/app/components/blocks/Arrow";
 import Script from "next/script";
-import { useSearchParams } from "next/navigation";
 
-export default function ThankYou() {
-  const searchParams = useSearchParams();
-  const value = searchParams.get("value") || "0";
+export const dynamic = "force-dynamic";
 
-  console.log(value);
+export default function ThankYou({ searchParams }) {
+  const value = searchParams?.value || "0";
 
   return (
     <>
